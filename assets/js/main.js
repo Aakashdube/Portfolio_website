@@ -43,7 +43,7 @@ var typingEffect = new Typed(".typedText",{
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
 const sr = ScrollReveal({
-      origin: 'top',
+      // origin: 'top',
       distance: '80px',
       duration: 2000,
       reset: true     
@@ -68,7 +68,7 @@ sr.reveal('.top-header',{})
 
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
-origin: 'left',
+// origin: 'left',
 distance: '80px',
 duration: 2000,
 reset: true
@@ -79,7 +79,7 @@ srLeft.reveal('.contact-info',{delay: 100})
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
-origin: 'right',
+// origin: 'right',
 distance: '80px',
 duration: 2000,
 reset: true
