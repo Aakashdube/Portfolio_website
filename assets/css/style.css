@@ -474,10 +474,19 @@ h3{
     padding: 3px 8px;
     border-radius: 5px;
 }
+
+.wide-button{
+    font-size: 14px;
+    padding: 2px 6px;
+}
 @media (max-width: 600px) {
     .button-grid span {
       font-size: 11px;
       padding: 2px 6px;
+    }
+    .wide-button{
+        font-size: 12px;
+        padding: 2px 6px;
     }
   } 
    
@@ -538,6 +547,43 @@ letter-spacing: 2px;
     font-size:1500;
     color: #000;
 }
+/* ------------------ */
+/* Responsive for tablets */
+@media (max-width: 768px) {
+    .overlay {
+        padding: 0 30px;
+    }
+
+    .overlay h3 {
+        font-size: 24px;
+        margin-top: 40%;
+    }
+
+    .overlay p {
+        font-size: 13px;
+    }
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+    .overlay {
+        padding: 0 20px;
+    }
+
+    .overlay h3 {
+        font-size: 20px;
+        margin-top: 35%;
+    }
+
+    .overlay p {
+        font-size: 12px;
+    }
+}
+
+
+/* ------------------ */
+
+
 .content-box:hover img{
     transform:none;
 }
