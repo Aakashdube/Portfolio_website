@@ -159,8 +159,9 @@ nav{
     position: relative;
     display: flex;
     height: 100vh;
-    min-height: 850px;
+    min-height: 910px;
 }
+
 
 /* ----- FEATURED TEXT BOX ----- */
 .featured-text{
@@ -168,7 +169,7 @@ nav{
     display: flex;
     justify-content: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 90vh;
     flex-direction: column;
     width: 50%;
     padding-left: 20px;
@@ -181,7 +182,7 @@ nav{
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 550;
     color: var(--text-color-second);
     margin-block: 20px;
@@ -253,7 +254,6 @@ nav{
     }
 }
 .scroll-btn{
-
    position: absolute;
    bottom: 0;
    left: 50%;
@@ -263,8 +263,6 @@ nav{
    align-items: center;
    width: 150px;
    height: 50px;
-   gap: 10px;
-   
    text-decoration: none;
    color: var(--text-color-second);
    background: var(--color-white);
@@ -309,6 +307,7 @@ h3{
     color: var(--text-color-second);
     margin-bottom: 15px;
 }
+
 
 /* ----- ABOUT INFO ----- */
 .about-info{
@@ -397,7 +396,7 @@ h3{
   }
   
   /* Tablets (601px to 900px) */
-  @media (min-width: 601px) and (max-width: 900px) {
+  @media (min-width: 550px) and (max-width: 900px) {
     .skills-list {
       gap: 25px;
       justify-content: center;
@@ -408,6 +407,7 @@ h3{
       padding: 4px 10px;
     }
   }
+
   
 /* ----- PROJECTS BOX ----- */
 .project-container{
@@ -545,7 +545,7 @@ letter-spacing: 2px;
     height: 90%;
 }
 
-  @media (max-width: 550px) {
+  @media (max-width: 350px) {
     .project-box {
       margin: 10px auto;
       border-radius: 6px;
@@ -602,10 +602,11 @@ letter-spacing: 2px;
     padding: 20px 30px;
     width: 100%;
     height: 315px;
-    background: var(--second-color);
+    background: #025a5a;
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
+
 }
 .contact-info>h2{
     color: var(--color-white);
@@ -624,10 +625,9 @@ letter-spacing: 2px;
 .contact-info::after{
     background: var(--color-white);
 }
-.contact-info:hover.contact-info h2,
-.contact-info:hover.contact-info p,
-.contact-info:hover.contact-info i{
-    color: #0d0d0d;
+
+.contact-info:hover.contact-info {
+    background: var(--second-color);
     z-index: 2;
 }
 
@@ -670,11 +670,11 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--second-color);
+    background: #025a5a;
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: #025a5a;
+    background: var(--second-color);
 }
 .form-button i{
     font-size: 18px;
